@@ -1,0 +1,322 @@
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero {
+  padding-bottom: 250px;
+  background-image: url("images/TheGlobe1.jpg");
+  background-size: cover;
+}
+
+.content {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.nav a {
+font-family: 'Varela Round', sans-serif;
+text-decoration: none;
+color: black;
+}
+
+.nav a:hover {
+color: gray;
+}
+
+.sidebar {
+  min-height: 100%;
+  background-color: #a3bcf9;
+}
+
+.mini {
+  padding: 20px;
+}
+
+.mini h4 {
+  font-family: 'Varela Round', sans-serif;
+  color: black;
+  }
+
+.mini a {
+font-family: 'Varela Round', sans-serif;
+text-decoration: none;
+color: black;
+}
+
+.mini a:hover {
+color: gray;
+}
+
+
+.blurb {
+margin-left: 10px;
+}
+
+.blurb img {
+  width: 100%;
+}
+
+.blurb h4 {
+  font-family: 'Varela Round', sans-serif;
+  color: black;
+}
+
+.blurb p {
+  font-family: 'Varela Round', sans-serif;
+  color: black;
+}
+
+footer {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+margin-top: 20px;
+background-color: #576490;
+padding: 6px;
+}
+
+.social-media-icons {
+  margin-right: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.social-media-icons h4 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*CSS for 'About Us'- Agnes*/
+.biographies {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+/*CSS for 'Get Involved'- fnc*/
+
+.get-involved {
+  margin: auto;
+  margin-left: 25%;
+}
+
+.get-involved h1, h2 {
+  font-family: 'Varela Round', sans-serif;
+  color: black;
+  }
+
+  .col {
+    padding: 10px;
+  }
+
+  .row {
+    display: flex;
+      }
+
+  input {
+    font-family: 'Varela Round', sans-serif;
+  }
+
+  /*LAW: Styles for 'Where we work' page*/
+  .map-legend {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map-content h4 {
+font-family: 'Varela Round', sans-serif;
+margin-left: 20px;
+  }
+
+  .map {
+    margin-left: 50px;
+  }
+
+  .north, .south {
+    display: flex;
+  }
+
+  .NA,.SA,.Europe,.Africa,.Asia,.Oceania {
+    padding: 100px;
+    border: 2px dashed red;
+  }
+
+  .NA {
+    background-image: url("images/NA.png");
+    background-size: cover;
+  }
+
+  .SA {
+    background-image: url("images/South America.png");
+    background-size: cover;
+  }
+
+  .Europe {
+    background-image: url("images/Europe.png");
+    background-size: cover;
+  }
+
+  .Africa {
+    background-image: url("images/Africa.png");
+    background-size: cover;
+  }
+
+  .Asia {
+    background-image: url("images/Asia.png");
+    background-size: cover;
+  }
+
+  .Oceania {
+    background-image: url("images/Oceania.png");
+    background-size: cover;
+  }
+
+  /* NA Tooltip*/
+  .tooltipNA {
+      position: relative;
+      display: inline-block;
+  }
+
+  .tooltipNA .tooltiptextNA {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      font-family: 'Varela Round', sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+      position: absolute;
+      z-index: 1;
+  }
+
+  .tooltipNA:hover .tooltiptextNA {
+      visibility: visible;
+  }
+
+  /* Europe Tooltip*/
+  .tooltipEurope {
+      position: relative;
+      display: inline-block;
+  }
+
+  .tooltipEurope .tooltiptextEurope {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      font-family: 'Varela Round', sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+      position: absolute;
+      z-index: 1;
+  }
+
+  .tooltipEurope:hover .tooltiptextEurope {
+      visibility: visible;
+  }
+
+  /* Asia Tooltip*/
+  .tooltipAsia {
+      position: relative;
+      display: inline-block;
+  }
+
+  .tooltipAsia .tooltiptextAsia {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      font-family: 'Varela Round', sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+      position: absolute;
+      z-index: 1;
+  }
+
+  .tooltipAsia:hover .tooltiptextAsia {
+      visibility: visible;
+  }
+
+  /*SA Tooltip*/
+
+  .tooltipSA {
+      position: relative;
+      display: inline-block;
+  }
+
+  .tooltipSA .tooltiptextSA {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      font-family: 'Varela Round', sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+      position: absolute;
+      z-index: 1;
+  }
+
+  .tooltipSA:hover .tooltiptextSA {
+      visibility: visible;
+  }
+
+  /*Africa Tooltip*/
+
+  .tooltipAfrica {
+      position: relative;
+      display: inline-block;
+  }
+
+  .tooltipAfrica .tooltiptextAfrica {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      font-family: 'Varela Round', sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+      position: absolute;
+      z-index: 1;
+  }
+
+  .tooltipAfrica:hover .tooltiptextAfrica {
+      visibility: visible;
+  }
+
+  /*Oceania Tooltip*/
+
+  .tooltipOceania {
+      position: relative;
+      display: inline-block;
+  }
+
+  .tooltipOceania .tooltiptextOceania {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      font-family: 'Varela Round', sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+      position: absolute;
+      z-index: 1;
+  }
+
+  .tooltipOceania:hover .tooltiptextOceania {
+      visibility: visible;
+  }
